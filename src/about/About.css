@@ -1,0 +1,34 @@
+:root {
+    --gradient-primary: linear-gradient(to top left, #39b385, #9be15d) !important;
+}
+.text-color {
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    width: 99.25%;
+}
+.charact {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #54f1b5;
+}
+.abt-text{
+    font-size: 3rem;
+}
+.pad{
+    margin-left: 18rem;
+    margin-bottom: 4rem;
+}
+.im-width{
+    width: 75%;
+    border-radius: 50%;
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 1268px) {
+    .pad {
+        margin-left: 2rem;
+    }
+}

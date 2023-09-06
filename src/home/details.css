@@ -1,0 +1,109 @@
+
+:root {
+    --gradient-primary: linear-gradient(to top left, #39b385, #9be15d) !important;
+}
+body {
+    background-color: #222f3e;
+}
+.cfd {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: -16rem;
+    margin-right: 16.5rem;
+    color: bisque;
+    text-align: left !important;
+}
+.cd-words-wrapper {
+    position: relative;
+}
+.b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.9s ease-in-out;
+}
+.is-visible {
+    opacity: 1;
+    display: flex;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-left: 20rem;
+    height: auto !important;
+    min-width: 34% !important;
+    max-width: 35%;
+    z-index: -1 !important;
+    transform: scale(1, 0.8) skewX(-15deg) !important;
+    background-image: var(--gradient-primary) !important;
+}
+
+.text-center {
+    color: white;
+    max-width: 99.25%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.bcg {
+    background-color: #26282d !important;
+    color: white !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+.width {
+    max-width: 600%;
+    height: auto;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.name {
+    font-weight: bold;
+
+    font-size: 5rem; /* Example of using rem units */
+    text-align: left;
+    margin-left: 5rem; /* Example of using rem units */
+    margin-top: 1rem; /* Example of using rem units */
+    color: #ebeeef;
+}
+.card-text {
+    text-align: left;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Add the animation to the element */
+.animated-gradient {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 40px;
+    }
+}
+@media (max-width: 450px) {
+    .name {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .name {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
