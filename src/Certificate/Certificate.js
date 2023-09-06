@@ -9,7 +9,7 @@ import JS from '../images/JS.jpg'
 function Sliders() {
   const [index, setIndex] = useState(0);
 
-
+ 
   useEffect(() => {
     const intervalId = setInterval(() => {
       // Calculate the next index here
